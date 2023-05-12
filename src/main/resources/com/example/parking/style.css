@@ -1,0 +1,205 @@
+.text-area {
+    -fx-background-color: rgba(80,89,119,0.4);
+    -fx-text-fill: gold;
+    -fx-font-size: 18;
+    -fx-background-radius: 30;
+    -fx-pref-height: 340;
+    -fx-max-height: 340;
+
+
+}
+
+
+#textFlow{
+    -fx-background-color: rgba(80,89,119,0.4);
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    -fx-background-radius: 30;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+
+
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;-fx-border-radius: 15;
+
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;-fx-border-radius: 15;
+
+}
+#pane {
+
+-fx-background-image: url("car.jpg");
+    -fx-background-color: BLACK;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-overflow: hidden;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+
+}
+.table-view{
+    -fx-background-color: transparent  ;
+    -fx-font-size: 14;
+    -fx-font-weight: NORMAL;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: GOLD;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+
+}
+
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: black;
+    -fx-text-fill: BLACK;
+    -fx-border-width: 0;
+}
+
+.table-view .column-header {
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: lightgrey;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center_left;
+    -fx-font-size: 14pt;
+    -fx-text-fill: GOLD;
+    -fx-padding: 5 0 15 0;
+}
+
+.table-row-cell,
+.table-row-cell:odd {
+
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #1b3cda;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: GOLD;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 1 0 0 0;
+    -fx-font-size: 14pt;
+    -fx-padding: 5 3 15 3;
+}
+
+.radio-button{
+    -fx-max-height: 32;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-background-radius: 50;
+    -fx-font-weight: BOLD;
+}
+
+
+
+
+
+.text-field{
+    -fx-background-color: transparent  ;
+    -fx-font-size: 14;
+    -fx-pref-width: 300;
+    -fx-font-weight: NORMAL;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: blue;
+    -fx-text-fill: gold ;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+
+}
+.combo-box{
+    -fx-background-color: transparent  ;
+    -fx-pref-width: 200;
+    -fx-border-color: blue;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+
+}
+.combo-box .list-cell{
+    -fx-text-fill: green ;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14;
+    -fx-font-weight: BOLD;
+}
+.combo-box .select.option{
+    -fx-background-color: blue;
+}
+.label{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: #2cc3ff;
+
+}
+#error{
+    -fx-text-fill: red;
+}
+#result{
+    -fx-text-fill: #00ff00;
+}
+.button{
+    -fx-max-height: 32;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-background-radius: 50;
+    -fx-font-weight: BOLD;
+
+}
+.hyperlink{
+    -fx-text-fill: gold;
+    -fx-font-size: 20;
+    -fx-border-color: transparent;
+}
+#link{
+    -fx-font-size: 10  ;
+}
+#text{
+    -fx-text-fill: gold;
+    -fx-font-size: 20;
+    -fx-font-family: "Times New Roman";
+
+
+
+}
+#b1{
+    -fx-font-size: 20;
+}
+#b2{
+    -fx-background-color: transparent;
+    -fx-min-width: 40;
+    -fx-background-radius: 10;
+
+
+}
+#b2:hover{
+    -fx-background-color: #640086;
+    -fx-cursor: progress;
+}
+.button:hover{
+    -fx-background-color: darkblue;
+}
+
+
+
+#rectangle{
+  -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-border-color: red;
+    -fx-background-color: transparent;
+
+
+}
+
